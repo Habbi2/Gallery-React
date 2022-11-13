@@ -1,10 +1,10 @@
 <h1 align="center">Galería en React - Sueño</h1>
 
-Sueño es una galería hecha en React con el propósito de acelerar el análisis de data mejorando el tiempo de respuesta!
+Sueño es una galería hecha en React con el propósito de acelerar el análisis de data mejorando el tiempo de respuesta.
 Usa simples transiciones de Sass y React-spring con el propósito de dar los mejores resultados. Con el objetivo de analizar data,
 se adapta a Ipads y Computadoras de escritorio.
 
-Para probar la galería descargar el repo, correr "npm i" para instalar las dependecias de React-Spring y SASS!
+Para probar la galería descargar el repo, correr "npm i" para instalar las dependecias de React-Spring y SASS
 
 Correr para probar con Npm start
 
