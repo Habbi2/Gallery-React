@@ -23,11 +23,13 @@ body {
 }
 
 .fullScreen {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   background-color: $color;
+  z-index: -3;
 }
 
 .close {
@@ -129,73 +131,6 @@ body::-webkit-scrollbar {
   color: $textColor;
 }
 
-.Container {
-  height: 100vh;
-  width: 100vw;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0px;
-  background: linear-gradient(45deg, #15141B, #100E21);
-  justify-content: space-around;
-
-  .imagen {
-    width: auto;
-    height: 50vw;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 10px;
-    border-radius: 10px;
-  }
-
-  .focusPrevButton,
-  .focusNextButton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    margin: 3vw;
-    width: $btWidthHeight;
-    height: $btWidthHeight;
-    border: solid $btColor $btThickness;
-    border-radius: 50%;
-    border-width: 3px;
-    background-color: rgba(139, 124, 124, );
-    opacity: 0.4;
-    font-size: 3vw;
-    color: white;
-  }
-  /* button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 5vw;
-    height: 5vw;
-    border: $border;
-    border-radius: 100%;
-    font-size: 2vw;
-    color: $textColor;
-    background-color: transparent;
-  }
-
-  button:hover {
-    
-    background-color: transparent;
-  }
-
-  button:active {
-    box-shadow: 0 0.5vw $color2;
-    transform: translateY(0.5vw);
-    background-color: transparent;
-  }
-*/
-
-
-
-}
 
 
 
@@ -230,6 +165,7 @@ body::-webkit-scrollbar {
   height: auto;
   color: $btColor;
   margin: 0.2vh;
+  z-index: 0;
 }
 
 .selected {
@@ -240,6 +176,7 @@ body::-webkit-scrollbar {
   border-radius: $borderRadius;
   color: $btColor;
   border-color: $color3;
+  z-index: 0;
 }
 
 .carruselList {
@@ -257,12 +194,14 @@ body::-webkit-scrollbar {
 }
 
 .labeling {
+  position: absolute;
   margin-left: 0vw;
   width: fit-content;
   height: 7vh;
   display: flex;
   position: fixed;
   top: 0vh;
+  z-index: 1;
 
   transition: top 1.1s;
   flex-direction: column;
@@ -277,10 +216,11 @@ body::-webkit-scrollbar {
   height: 7vh;
   display: flex;
   position: fixed;
-  top: -7.4vw; 
+  top: -7.4vw;
   transition: top 1.1s;
   flex-direction: column;
   color: wheat;
+  z-index: 1;
 }
 
 .toggleButton {
@@ -308,7 +248,7 @@ body::-webkit-scrollbar {
   align-items: center;
   height: fit-content;
   flex-direction: row;
-  
+
   button {
     display: flex;
     justify-content: flex-end;
@@ -328,4 +268,66 @@ body::-webkit-scrollbar {
     margin: 0.2vw;
     font-size: 2vh;
   }
+
+}
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0px;
+  background: linear-gradient(45deg, #15141B, #100E21);
+  justify-content: space-around;
+
+  .imagen {
+    width: auto;
+    height: 50vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px;
+    border-radius: 10px;
+    z-index: -1;
+  }
+
+  .focusPrevButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 3vw;
+    width: $btWidthHeight;
+    height: $btWidthHeight;
+    border: solid $btColor $btThickness;
+    border-radius: 50%;
+    border-width: 3px;
+    background-color: rgba(139, 124, 124, );
+    opacity: 0.4;
+    font-size: 3vw;
+    color: white;
+    margin-left: -30vw;
+  }
+
+  .focusNextButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 3vw;
+    width: $btWidthHeight;
+    height: $btWidthHeight;
+    border: solid $btColor $btThickness;
+    border-radius: 50%;
+    border-width: 3px;
+    background-color: rgba(139, 124, 124, );
+    opacity: 0.4;
+    font-size: 3vw;
+    color: white;
+    margin-right: -30vw;
+  }
+
 }

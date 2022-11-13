@@ -2,6 +2,12 @@ import React, { createContext, useState, useEffect } from "react";
 import images from "../images/imagenes"
 //importamos imágenes y funciones que necesitamos
 
+import {
+    useTransition,
+    config,
+    animated,
+} from 'react-spring'
+
 //Creamos una variable vacía
 let interval;
 //Creamos el contexto
@@ -82,6 +88,19 @@ export const Provider = props => {
         if (page < images.length-13) setPage(prev => prev + 1)
     }
 
+    const transition = useTransition(selectedElement, {
+        from: { position: 'absolute', opacity: 0, zIndex: 0},
+        enter: { opacity: 1, zIndex: 0 },
+        leave: { opacity: 0, zIndex: 0 },
+        delay: 200,
+        config: config.gentle,
+    })
+
+    const fragment = transition((style, item) => {
+        // Renderizamos cada imagen
+        return <animated.div style={style}><img className='imagen' alt="" src={item}></img></animated.div>
+    });
+
     //Llamamos todo lo que queremos exportar a los hijos del provider
     const imagesContext = {
         images,
@@ -94,7 +113,8 @@ export const Provider = props => {
         setToggle,
         pages,
         navPrev,
-        navNext
+        navNext,
+        fragment
     };
     return <Context.Provider value={imagesContext}>{children}</Context.Provider>;
     //Metemos a los children (Navigation y Focus) dentro del Provider de información
