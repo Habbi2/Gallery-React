@@ -1,16 +1,9 @@
-import Focus from "./utils/Focus";
-import Navigation from "./utils/Navigation";
-import { Provider } from "./utils/ElementContext";
-
-import "./App.scss";
+import Galería from "./galería/Galería";
 
 function App() {
 
-  return <div className="fullScreen">
-    <Provider>
-      <Navigation />
-      <Focus />
-    </Provider>
+  return <div>
+    <Galería />
   </div>
 }
 
