@@ -50,7 +50,7 @@ export const Provider = props => {
 
     useEffect(() => {
         const items = [];
-        for (let i = page; i < page + 13; i++) {
+        for (let i = page; i < page + 15; i++) {
             items.push(images[i]);
         }
         setPages(items)
@@ -85,7 +85,7 @@ export const Provider = props => {
     }
 
     const navNext = () => {
-        if (page < images.length-13) setPage(prev => prev + 1)
+        if (page < images.length-15) setPage(prev => prev + 1)
     }
 
     const transition = useTransition(selectedElement, {
