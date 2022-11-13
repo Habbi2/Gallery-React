@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<h1 align="center">Galería en React - Sueño</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sueño es una galería hecha en React con el propósito de acelerar el análisis de data mejorando el tiempo de respuesta!
+Usa simples transiciones de Sass y React-spring con el propósito de dar los mejores resultados. Con el objetivo de analizar data,
+se adapta a Ipads y Computadoras de escritorio.
 
-## Available Scripts
+Para probar la galería descargar el repo, correr "npm i" para instalar las dependecias de React-Spring y SASS!
 
-In the project directory, you can run:
+Correr para probar con Npm start
 
-### `npm start`
+Para llevar la galería a un propio proyecto copie la carpeta galería, llevela a su propio proyecto, instale Sass y React-Spring:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/57158052/201538058-baaa2d13-1595-4bc3-aec8-c4f8e031f688.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/57158052/201538180-f74704cb-5f7b-4ba5-9115-8113fc9b347d.png)
+![image](https://user-images.githubusercontent.com/57158052/201538152-0e9966d3-2ce9-4bf6-9703-a577e6546837.png)
 
-### `npm test`
+Importe la galería donde quiera usarla: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/57158052/201538232-44512a2e-c98d-477a-97d6-8f7c978e8c44.png)
 
-### `npm run build`
+Y úsela dentro de sus propios componentes:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/57158052/201538270-6f420df3-a5bc-44e5-9f04-2d780d6705db.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Imágenes de la galería:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/57158052/201538321-e6b6f26f-6bab-4413-bb8f-f9aef9b7d999.png)
 
-### `npm run eject`
+Versiones de IPads:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/57158052/201538445-362bfe43-1f12-4c14-939e-28eb69ab6516.png)
+![image](https://user-images.githubusercontent.com/57158052/201538459-5d7954d6-2a42-4b05-aa8c-2d572242bde9.png)
