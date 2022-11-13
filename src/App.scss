@@ -239,6 +239,7 @@ body::-webkit-scrollbar {
   border: $border;
   border-radius: $borderRadius;
   color: $btColor;
+  border-color: $color3;
 }
 
 .carruselList {
@@ -252,6 +253,7 @@ body::-webkit-scrollbar {
   flex-direction: row;
   border: $border;
   border-radius: $borderRadius;
+  border-color: $color3;
 }
 
 .labeling {
@@ -264,7 +266,8 @@ body::-webkit-scrollbar {
 
   transition: top 1.1s;
   flex-direction: column;
-  color: $color3
+  color: wheat;
+
 
 }
 
