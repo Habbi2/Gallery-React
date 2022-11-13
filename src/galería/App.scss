@@ -1,13 +1,13 @@
 $color: #23242d;
-$color2: #b6b6bf;
+$color2: #656565;
 $textColor: gray;
-$color3: #ffffff;
-$border: 0.3vh solid;
+$color3: #656565;
+$border: 1px solid rgba(60, 60, 60, 0.7);
 $hiddenBoder: 1px solid rgba(0, 0, 0, 0);
 $borderRadius: 3px;
 $btWidthHeight: 6vw;
-$btThickness: 2px;
-$btColor: #b6b6bf;
+$btThickness: 1px;
+$btColor: #656565;
 $btHoverColor: #b6b6bf;
 $btTransiTime: 0.11s;
 
@@ -37,8 +37,8 @@ body {
   width: 6vw;
   height: auto;
   color: $btColor;
-  margin: 0.2vh;
   z-index: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .selected {
@@ -50,6 +50,8 @@ body {
   color: $btColor;
   border-color: $color3;
   z-index: 0;
+  border-top: none;
+  border-bottom: none;
 }
 
 .carruselList {
@@ -126,17 +128,16 @@ body {
     display: flex;
     justify-content: flex-end;
     color: $btColor;
-    background-color: rgba(0, 0, 0, 0);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     float: left;
     margin: 1px;
     width: 1.5vw;
-    height: 6.5vw;
+    height: 6.2vw;
     border: $border;
-    border-radius: 3px;
-    background-color: rgba(139, 124, 124, );
+    border-radius: 2px;
+    background-color: rgb(55, 55, 55);
     opacity: $textColor;
     margin: 0.2vw;
     font-size: 2vh;
@@ -177,8 +178,7 @@ body {
     height: $btWidthHeight;
     border: solid $btColor $btThickness;
     border-radius: 50%;
-    border-width: 3px;
-    background-color: rgba(139, 124, 124, );
+    background-color: rgba(60, 60, 60, 0.7);
     opacity: 0.4;
     font-size: 3vw;
     color: white;
@@ -195,8 +195,7 @@ body {
     height: $btWidthHeight;
     border: solid $btColor $btThickness;
     border-radius: 50%;
-    border-width: 3px;
-    background-color: rgba(139, 124, 124, );
+    background-color: rgba(60, 60, 60, 0.7);
     opacity: 0.4;
     font-size: 3vw;
     color: white;
