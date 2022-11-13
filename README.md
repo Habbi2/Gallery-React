@@ -23,6 +23,10 @@ Y úsela dentro de sus propios componentes:
 
 ![image](https://user-images.githubusercontent.com/57158052/201538270-6f420df3-a5bc-44e5-9f04-2d780d6705db.png)
 
+Versión online de prueba de la galería:
+
+https://rainbow-cactus-e78e00.netlify.app/
+
 Imágenes de la galería:
 
 ![image](https://user-images.githubusercontent.com/57158052/201538321-e6b6f26f-6bab-4413-bb8f-f9aef9b7d999.png)
