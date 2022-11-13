@@ -1,6 +1,6 @@
 <h1 align="center">Prueba online gratuita:</h1>
 
-https://rainbow-cactus-e78e00.netlify.app/
+<h1 align="center">https://rainbow-cactus-e78e00.netlify.app/</h1>
 
 <h1 align="center">Galería en React - Sueño</h1>
 
