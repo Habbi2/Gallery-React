@@ -1,3 +1,7 @@
+<h1 align="center">Prueba online gratuita:</h1>
+
+https://rainbow-cactus-e78e00.netlify.app/
+
 <h1 align="center">Galería en React - Sueño</h1>
 
 Sueño es una galería hecha en React con el propósito de acelerar el análisis de data mejorando el tiempo de respuesta.
@@ -22,10 +26,6 @@ Importe la galería donde quiera usarla:
 Y úsela dentro de sus propios componentes:
 
 ![image](https://user-images.githubusercontent.com/57158052/201538270-6f420df3-a5bc-44e5-9f04-2d780d6705db.png)
-
-Versión online de prueba de la galería:
-
-https://rainbow-cactus-e78e00.netlify.app/
 
 Imágenes de la galería:
 
