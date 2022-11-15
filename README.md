@@ -29,9 +29,9 @@ Y úsela dentro de sus propios componentes:
 
 Imágenes de la galería:
 
-![image](https://user-images.githubusercontent.com/57158052/201538321-e6b6f26f-6bab-4413-bb8f-f9aef9b7d999.png)
+![image](https://user-images.githubusercontent.com/57158052/201951652-07b81d8d-aa5b-4bc6-bd80-73ad6cdf3ced.png)
 
 Versiones de IPads:
 
-![image](https://user-images.githubusercontent.com/57158052/201538445-362bfe43-1f12-4c14-939e-28eb69ab6516.png)
-![image](https://user-images.githubusercontent.com/57158052/201538459-5d7954d6-2a42-4b05-aa8c-2d572242bde9.png)
+![image](https://user-images.githubusercontent.com/57158052/201951744-58a6f994-90cd-488d-97b5-78c508de3e49.png)
+![image](https://user-images.githubusercontent.com/57158052/201951816-d19a5e61-f568-4756-a29f-0a1077bdfed6.png)
