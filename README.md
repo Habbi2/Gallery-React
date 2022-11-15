@@ -33,5 +33,5 @@ Imágenes de la galería:
 
 Versiones de IPads:
 
-![image](https://user-images.githubusercontent.com/57158052/201951744-58a6f994-90cd-488d-97b5-78c508de3e49.png)
+![image](https://user-images.githubusercontent.com/57158052/201952062-3380963f-73ca-480a-8946-b67c085430c6.png)
 ![image](https://user-images.githubusercontent.com/57158052/201951816-d19a5e61-f568-4756-a29f-0a1077bdfed6.png)
